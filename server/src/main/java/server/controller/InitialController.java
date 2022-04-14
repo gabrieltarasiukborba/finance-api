@@ -18,6 +18,7 @@ public class InitialController {
     @ApiOperation("Hello")
     @GetMapping
     public ResponseEntity<String> hello() {
+        //teste
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("message","Hello World");
         return ResponseEntity.ok(jsonObject.toString());
