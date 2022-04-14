@@ -1,0 +1,3 @@
+server/config/SwaggerConfig.class
+server/FinanceApiApplication.class
+server/controller/InitialController.class

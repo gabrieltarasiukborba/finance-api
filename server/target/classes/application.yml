@@ -1,0 +1,4 @@
+server:
+  port: ${SERVER_PORT:8089}
+
+swaggerBaseUrl: ${SWAGGER_BASE_URL:localhost:${server.port}}
